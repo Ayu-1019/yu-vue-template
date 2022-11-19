@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 修改scrollbar样式
+body {
+  margin: 0;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+  background-clip: content-box;
+  border: 2px solid transparent;
+}
+
+body[scroll]::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  background-color: rgb(80, 80, 80);
+}
