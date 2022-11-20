@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-// 修改scrollbar样式
+/* 修改scrollbar样式 */
 body {
   margin: 0;
   overflow: overlay;
@@ -24,5 +24,5 @@ body {
 
 body[scroll]::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80)
 }

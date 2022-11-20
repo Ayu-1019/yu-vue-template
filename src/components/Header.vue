@@ -1,17 +1,11 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-defineProps<{ msg: string }>()
-
-const count = ref(0)
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>{{ msg }}</div>
+  <div flex border-b-1 h-15 px-5>
+    <div cursor-pointer>
+      <img h-full src="@/assets/img/ayu-dark.png" alt="" />
+    </div>
+  </div>
 </template>
 
-<style scoped lang="less">
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped lang="less"></style>
